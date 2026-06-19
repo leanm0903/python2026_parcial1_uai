@@ -4,3 +4,6 @@ class Libro:
         self.autor = autor
     def __str__(self):
         return f"'{self.titulo}' por {self.autor}"
+
+Libro1 = Libro("dasdasd", " dasdas García Márquez")
+print(Libro1)
